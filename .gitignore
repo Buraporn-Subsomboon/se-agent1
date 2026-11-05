@@ -1,0 +1,15 @@
+# secrets -- never commit these
+.env
+.env.*
+!.env.example
+
+# prompts/ is NOT ignored: your team commits its prompts to its own fork.
+
+# Python / tools
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# run results can be large and contain generated code; share the ones you want deliberately
+output/
