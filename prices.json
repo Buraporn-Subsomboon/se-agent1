@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-10-20",
+  "note": "Dollars per 1 million tokens. VERIFY against https://openai.com/api/pricing before relying on these: they came from a third-party page. Thinking models bill hidden reasoning tokens as output. A null price means 'not filled in yet'.",
+  "models": {
+    "gpt-6-luna": {"input_per_m": 0.10, "output_per_m": 0.50,
+      "source": "third-party listing, Oct 2026 - verify on OpenAI's pricing page"},
+    "gpt-6-sol": {"input_per_m": 2.00, "output_per_m": 10.00,
+      "source": "third-party listing, Oct 2026 - verify on OpenAI's pricing page"},
+    "gpt-6-astra": {"input_per_m": 10.00, "output_per_m": 50.00,
+      "source": "third-party listing, Oct 2026 - verify on OpenAI's pricing page"},
+    "groq-free (openai/gpt-oss-120b)": {"input_per_m": 0, "output_per_m": 0,
+      "source": "free tier, but limited to about 8,000 tokens/minute"},
+    "ollama-local": {"input_per_m": 0, "output_per_m": 0,
+      "source": "runs on your own computer; costs electricity and time, no token bill"}
+  }
+}
